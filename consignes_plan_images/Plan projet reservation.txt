@@ -1,0 +1,87 @@
+PROJET DE RESERVATION:
+
+
+1. Authentification et Gestion des Utilisateurs :
+Inscription (Create) :
+
+register.php - Formulaire d'inscription.
+Champs obligatoires : nom, prénom, email, mot de passe.
+Validation des données côté serveur.
+Stockage sécurisé du mot de passe (hachage).
+Connexion (Read) :
+
+login.php - Formulaire de connexion.
+Vérification des informations dans la base de données.
+Création d'une session utilisateur.
+Déconnexion (Delete) :
+
+logout.php - Script de déconnexion.
+Destruction de la session utilisateur.
+2. Recherche et Réservation (CRUD) :
+Recherche de Logements (Read) :
+
+index.php - Page d'accueil avec barre de recherche.
+Interface de recherche avec filtres (dates, lieu, nombre de personnes, etc.).
+Affichage des résultats avec images et informations essentielles.
+Détails du Logement (Read) :
+
+property.php - Page détaillée du logement.
+Page avec toutes les informations nécessaires.
+Possibilité de voir les disponibilités et tarifs.
+Réservation (Create, Read, Update, Delete) :
+
+reservation.php - Formulaire de réservation.
+Choix des dates et nombre de personnes.
+Calcul du coût total.
+Validation de la réservation après confirmation.
+Annulation de Réservation (Update, Delete) :
+
+Fonctionnalité d'annulation de réservation.
+Possibilité d'annuler une réservation avant une certaine date limite.
+Gestion des remboursements le cas échéant.
+3. Options de Réservation :
+Calendrier de Disponibilité (Read) :
+
+Intégrer un calendrier sur la page de réservation.
+Options Supplémentaires (Create, Read, Update) :
+
+Assurance, lavage de voiture, assurance annulation, options pour animaux, etc.
+4. Profil Utilisateur (CRUD) :
+Profil Utilisateur (Read, Update) :
+
+profile.php - Page du profil utilisateur.
+Informations personnelles et historique des réservations.
+edit_profile.php - Formulaire pour mettre à jour le profil.
+Changement de Mot de Passe (Update) :
+
+change_password.php - Formulaire de modification du mot de passe.
+5. Gestion des Commentaires et Évaluations (CRUD) :
+Ajout de Commentaires (Create, Read) :
+
+add_review.php - Formulaire pour ajouter des commentaires et des évaluations.
+Affichage des Évaluations (Read) :
+
+Intégration des évaluations sur la page de détails du logement.
+Système d'évaluation des logements basé sur les commentaires.
+Affichage de la note moyenne pour chaque logement.
+6. Administration (CRUD - Bonus) :
+Gestion des Utilisateurs (Read, Update, Delete) :
+
+admin_users.php - Page d'administration pour gérer les utilisateurs.
+Gestion des Logements (Create, Read, Update, Delete) :
+
+admin_properties.php - Page d'administration pour gérer les logements.
+7. Sécurité :
+Protection contre les Failles de Sécurité :
+Validation côté serveur de toutes les données entrées.
+Prévention contre les attaques par injection SQL, XSS, CSRF, etc.
+8. Responsive Design :
+Compatibilité Mobile :
+Assure-toi que toutes les pages sont bien adaptées aux dispositifs mobiles.
+9. Documentation :
+Documentation du Code :
+Commentaires dans le code pour expliquer les parties importantes.
+Instructions d'installation et d'utilisation.
+10. Tests :
+Tests Unitaires et Fonctionnels :
+Assure-toi que chaque fonctionnalité est correctement testée.
